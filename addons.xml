@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+    <addon id="plugin.program.addoninstaller" version="1.2.6"
+    	name="Addon Installer" provider-name="tvaddons.ag, Blazetamer">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.addon.common" optional="true" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Addon Browser</summary>
+        <description>Its like an App Store where you'll find Addons for Kodi, and everything is free!</description>
+        <disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
+        <language>en</language>
+        <platform>all</platform>
+        <forum>http://forums.tvaddons.ag/forums/156-ADDON-INSTALLER</forum>
+        <website>http://addons.tvaddons.ag/</website>
+        <source></source>
+        <email></email>
+    </extension>
+</addon>
+
+<!--suppress ALL -->
+<addon id="plugin.video.1channel" version="2.5.72" name="1Channel" provider-name="Bstrdsmkr, tuxen, tknorris">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.urlresolver" version="3.0"/>
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.metahandler" version="2.6.0" />
+        <import addon="script.module.myconnpy" version="1.1.6" />
+        <import addon="script.module.axel.downloader" version="0.2.0" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup">
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Browse 1channel.ch</summary>
+        <description>Play a wide selection of movies and TV shows from PrimeWire.ag.
+***This addon is supported at [COLOR blue]www.tvaddons.ag[/COLOR], [COLOR white][B]NOT[/B][/COLOR] [COLOR red]xbmc.org[/COLOR]. ***
+        </description>
+        <platform>all</platform>
+        <website>http://tvaddons.ag/</website>
+		<forum>http://forums.tvaddons.ag/forums/32-BSTRDSMKR-S-REPOSITORY</forum>
+    </extension>
+</addon>
+
+<addon id="plugin.video.adryanlist"
+       name="AdryanList"
+       version="2.3.4"
+       provider-name="Doc Shadrach">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+	<import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>based on livestreamspro 2.3.4 by Shani</summary>
+    <description>Lista de canales de Adryan.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.STALKER BLACK LABEL" name="[B][COLOR white]STALKER BLACK LABEL[/COLOR][/B]" version="1.0.0" provider-name="[COLOR red]NTRX-ANTHRAX[/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver" version="0.0.1"/>
+        <import addon="script.module.requests" version="0.0.1"/>
+		<import addon="script.module.xbmcswift2" version="2.4.0"/>
+		<import addon="script.module.xbmcswift" version="0.2.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Summary</summary>
+		<description lang="en">[B][COLOR red]STALKER-BLACK LABEL[/COLOR][/B]</description>
+		<disclaimer lang="en"></disclaimer>
+		<language>En-ES</language>
+		<platform>all</platform>
+		<license></license>
+		<forum></forum>
+		<website>DEEP WEB-NTRX</website>
+		<email>NTRXXX01@GMAIL.COM</email>
+		<source>DEEP WEB-NTRX</source>
+	</extension>
+</addon>
+
+<addon id="repository.black" name="black" version="0.0.0" provider-name="[COLOR red]NTRX-ANTHRAX[/COLOR]">
+	<extension point="xbmc.addon.repository" name="REPOSITORY BLACK LABEL">
+		<info compressed="false">http://raw.github.com//NTRXXX/INDEX/master/addons.xml</info>
+		<checksum>http://raw.github.com//NTRXXX/INDEX/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com//NTRXXX/INDEX/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>[COLOR white]REPOSITORY BLACK LABEL[/COLOR]</summary>
+		<description>[COLOR red]THANKS TO BELCEBÙ FOR THIS¡¡¡¡[/COLOR]</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>

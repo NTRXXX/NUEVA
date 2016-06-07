@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.STALKER BLACK LABEL" name="[B][COLOR white]STALKER BLACK LABEL[/COLOR][/B]" version="1.0.0" provider-name="[COLOR red]NTRX-ANTHRAX[/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver" version="0.0.1"/>
+        <import addon="script.module.requests" version="0.0.1"/>
+		<import addon="script.module.xbmcswift2" version="2.4.0"/>
+		<import addon="script.module.xbmcswift" version="0.2.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Summary</summary>
+		<description lang="en">[B][COLOR red]STALKER-BLACK LABEL[/COLOR][/B]</description>
+		<disclaimer lang="en"></disclaimer>
+		<language>En-ES</language>
+		<platform>all</platform>
+		<license></license>
+		<forum></forum>
+		<website>DEEP WEB-NTRX</website>
+		<email>NTRXXX01@GMAIL.COM</email>
+		<source>DEEP WEB-NTRX</source>
+	</extension>
+</addon>
+

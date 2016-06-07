@@ -1,0 +1,8 @@
+[B]Version 1.0[/B]
+- Changed hosts
+
+[B]Version 1.0[/B]
+- Bug fix
+
+[B]Version 1.0[/B]
+- Initial version
